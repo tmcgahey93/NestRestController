@@ -23,7 +23,7 @@ import { KafkaController } from './kafka.controller';
             options: {
               client: {
                 clientId,
-                brokers: [broker],  // ✅ Ensures it's always a valid string[]
+                brokers: [broker],
               },
               consumer: {
                 groupId,
